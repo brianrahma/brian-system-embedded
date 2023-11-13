@@ -1,29 +1,34 @@
-// the number of the LED pin
+// AISYAH NURUL AINI               (4.31.21.0.03)
+// BRIAN RAHMADITYA                (4.31.21.0.09)
+// SABRINA VIRRY TALITHA MEIRILLA  (4.31.21.0.23)
+
+// Nomor pin untuk LED
 const int ledPin = 16; // 16 corresponds to GPIO16
 const int ledPin2 = 17; // 17 corresponds to GPIO17
 const int ledPin3 = 5; // 5 corresponds to GPIO5
-// setting PWM properties
+
+// Menetapkan properti PWM
 const int freq = 5000;
 const int ledChannel = 0;
 const int resolution = 8;
 void setup() {
   // configure LED PWM functionalitites
   ledcSetup(ledChannel, freq, resolution);
-  // attach the channel to the GPIO to be controlled
+  // Menghubungkan saluran dengan pin GPIO yang akan dikendalikan
   ledcAttachPin(ledPin, ledChannel);
   ledcAttachPin(ledPin2, ledChannel);
   ledcAttachPin(ledPin3, ledChannel);
 }
 void loop() {
-  // increase the LED brightness
+  // Meningkatkan kecerahan LED
   for (int dutyCycle = 0; dutyCycle <= 255; dutyCycle++) {
-    // changing the LED brightness with PWM
+    // Mengubah kecerahan LED dengan PWM
     ledcWrite(ledChannel, dutyCycle);
     delay(15);
   }
-  // decrease the LED brightness
+  // Mengurangi kecerahan LED
   for (int dutyCycle = 255; dutyCycle >= 0; dutyCycle--) {
-    // changing the LED brightness with PWM
+    // Mengubah kecerahan LED dengan PWM
     ledcWrite(ledChannel, dutyCycle);
     delay(15);
   }
