@@ -1,5 +1,5 @@
-#include "SimpleEspNowConnection.h"
-#include <ESP8266WiFi.h>
+#include <esp_now.h>
+#include <WiFi.h>
 // Struktur pesan sender dan receiver harus sama
 typedef struct struct_message {
   char a[32];
