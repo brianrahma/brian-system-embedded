@@ -1,6 +1,6 @@
-/ REQUIRES the following Arduino libraries:
-// - DHT Sensor Library: https://github.com/adafruit/DHT-sensor-library
-// - Adafruit Unified Sensor Lib: https://github.com/adafruit/Adafruit_Sensor
+// AISYAH NURUL AINI               (4.31.21.0.03)
+// BRIAN RAHMADITYA                (4.31.21.0.09)
+// SABRINA VIRRY TALITHA MEIRILLA  (4.31.21.0.23)
 #include "DHT.h"
 #define DHTPIN 4 // Digital pin connected to the DHT sensor
 // Uncomment whatever type you're using!

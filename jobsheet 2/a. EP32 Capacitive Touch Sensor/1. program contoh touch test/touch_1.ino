@@ -1,3 +1,6 @@
+// AISYAH NURUL AINI               (4.31.21.0.03)
+// BRIAN RAHMADITYA                (4.31.21.0.09)
+// SABRINA VIRRY TALITHA MEIRILLA  (4.31.21.0.23)
 // ESP32 Touch Test
 // Just test touch pin - Touch0 is T0 which is on GPIO 4.
 int touch = 4;
