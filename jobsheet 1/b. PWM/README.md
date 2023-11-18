@@ -27,7 +27,6 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 
 ### Flowchart
 
-![280179676-3062ca6a-98dd-441c-8fe5-7019fac6f825](https://github.com/brianrahma/brian-system-embedded/assets/82065700/4d30acb6-710a-49de-8847-3d2781ec2c1d)
 
 Dalam percobaan ini bertujuan mengendalikan kecerahan sebuah LED menggunakan modul PWM (Pulse Width Modulation) yaitu teknik pengendalian sinyal di mana sinyal digital dibangkitkan secara periodik dengan dua tingkat tegangan yang berbeda: tinggi (biasanya disebut logika 1) dan rendah (biasanya disebut logika 0). Pada awal program, terdapat deklarasi variabel yang mencakup nomor pin GPIO tempat LED terhubung (`ledPin`), frekuensi PWM (`freq`), nomor saluran PWM (`ledChannel`), dan resolusi bit PWM (`resolution`). Setelah itu, dalam fungsi `setup()`, program mengkonfigurasi saluran PWM dengan frekuensi dan resolusi yang telah ditentukan, serta menghubungkan saluran tersebut dengan pin GPIO yang akan mengendalikan LED.
 
@@ -69,7 +68,8 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 
 ### Flowchart
 
-![280179676-3062ca6a-98dd-441c-8fe5-7019fac6f825](https://github.com/brianrahma/brian-system-embedded/assets/82065700/4d30acb6-710a-49de-8847-3d2781ec2c1d)
+![283585079-5170fdd7-efc4-4336-8f00-75edc6b9ff50](https://github.com/brianrahma/brian-system-embedded/assets/82065700/0870a2e3-fc4f-40e7-a2f5-bc0a55397fd7)
+
 
 Dalam percobaan ini bertujuan mengendalikan kecerahan tiga LED yang terhubung ke pin GPIO pada EP32. Nomor pin GPIO yang digunakan untuk masing-masing LED adalah 16, 17, dan 5. Program menggunakan modul PWM (Pulse Width Modulation) untuk menghasilkan efek perubahan kecerahan pada ketiga LED tersebut.
 
