@@ -27,6 +27,8 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 
 ### Flowchart
 
+![PWM 1 FLOWCHART](https://github.com/brianrahma/brian-system-embedded/assets/82065700/9462ce9f-c62d-462b-99c7-3ee68ebd67c3)
+
 
 Dalam percobaan ini bertujuan mengendalikan kecerahan sebuah LED menggunakan modul PWM (Pulse Width Modulation) yaitu teknik pengendalian sinyal di mana sinyal digital dibangkitkan secara periodik dengan dua tingkat tegangan yang berbeda: tinggi (biasanya disebut logika 1) dan rendah (biasanya disebut logika 0). Pada awal program, terdapat deklarasi variabel yang mencakup nomor pin GPIO tempat LED terhubung (`ledPin`), frekuensi PWM (`freq`), nomor saluran PWM (`ledChannel`), dan resolusi bit PWM (`resolution`). Setelah itu, dalam fungsi `setup()`, program mengkonfigurasi saluran PWM dengan frekuensi dan resolusi yang telah ditentukan, serta menghubungkan saluran tersebut dengan pin GPIO yang akan mengendalikan LED.
 
