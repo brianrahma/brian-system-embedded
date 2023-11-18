@@ -1,27 +1,32 @@
 # 1. GPIO | LED blink dengan interval 100ms, 1 detik, 2 detik, dan 3 detik sekali.
 
-**1. Alat dan Bahan**
+## 1. Keterangan Singkat (Abstrak)
+
+Dalam percobaan ini program dibuat untuk dapat menghasilkan LED yang dapat melakukan blink dengan interval 100ms, 1 detik, 2 detik dan 3 detik sekali.
+
+## 2. Alat dan Bahan
 1. ESP32             ==> 1 buah
 2. LED               ==> 1 buah
 3. Resistor 220 Ohm  ==> 1 buah
 4. Resistor 10k Ohm  ==> 1 buah
 5. Push button       ==> 1 buah
 6. Kabel jumper
-
-**2. Rangkaian**
+   
+### Rangkaian
 
 ![Jobsheet Embedded](https://github.com/brianrahma/brian-system-embedded/assets/82065700/644f9625-2d44-451c-9cf8-ce842129bb98)
 
-**3. Program**
+## 3. Hasil dan Pembahasan
+
+### Hasil
+![GPIO 1-GIF](https://github.com/brianrahma/brian-system-embedded/assets/82065700/be8ecc85-1328-4597-8c8f-7caabb8c38c9)
+
+### Source Code
 
 Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%201/a.%20GPIO/1._example_blink_interval_100ms__1_detik__2_detik_dan_3_detik_s/1._example_blink_interval_100ms__1_detik__2_detik_dan_3_detik_s.ino"> disini </a> atau dibawah ini
 ![GPIO 1](https://github.com/brianrahma/brian-system-embedded/assets/82065700/aa0ebaa2-6c5f-4e67-8542-60c7fbdd4705)
 
-**4. Hasil dan Pembahasan**
-
-![GPIO 1-GIF](https://github.com/brianrahma/brian-system-embedded/assets/82065700/be8ecc85-1328-4597-8c8f-7caabb8c38c9)
-
-**flowchart :**
+### flowchart :
 
 ![280179676-3062ca6a-98dd-441c-8fe5-7019fac6f825](https://github.com/brianrahma/brian-system-embedded/assets/82065700/4d30acb6-710a-49de-8847-3d2781ec2c1d)
 
@@ -162,6 +167,11 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 **4. Hasil dan Pembahasan**
 
 ![GPIO 5-GIF](https://github.com/brianrahma/brian-system-embedded/assets/82065700/a1c97368-8842-4661-a74e-417e13b1c1f2)
+
+flowchart :
+
+![283578306-f33ec0e3-478f-4588-b53f-67eb0437223b](https://github.com/brianrahma/brian-system-embedded/assets/82065700/d69fc663-fc98-407b-8372-1ccb0608dfcc)
+
 
 Percobaan ini mengendalikan 3 LED Running saat push button ke-3 ditekan.  Dalam fungsi setup(), dilakukan inisialisasi komunikasi serial dengan baud rate 115200 menggunakan Serial.begin(115200). Selanjutnya, pin tombol tekan diatur sebagai input dan pin LED diatur sebagai output menggunakan perintah pinMode().
 
