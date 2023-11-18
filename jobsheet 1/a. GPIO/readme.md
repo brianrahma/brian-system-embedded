@@ -6,6 +6,7 @@
 3. Resistor 220 Ohm  ==> 1 buah
 4. Resistor 10k Ohm  ==> 1 buah
 5. Push button       ==> 1 buah
+6. Kabel jumper
 
 **2. Rangkaian**
 
@@ -39,6 +40,7 @@ Dari praktikum ini, kita dapat mengetahui bahwa kita bisa mengatur LED dengan in
 3. Resistor 220 Ohm  ==> 1 buah
 4. Resistor 10k Ohm  ==> 1 buah
 5. Push button       ==> 1 buah
+6. Kabel jumper
 
 **2. Rangkaian**
 
@@ -74,6 +76,7 @@ Program Blink LED menggunakan millis() membuat LED berkedip dengan interval wakt
 3. Resistor 220 Ohm  ==> 1 buah
 4. Resistor 10k Ohm  ==> 1 buah
 5. Push button       ==> 1 buah
+6. Kabel jumper
 
 **2. Rangkaian**
 
@@ -107,9 +110,10 @@ Jika push button ditekan, LED akan menyala, dan jika tidak, LED akan mati. Nilai
 **1. Alat dan Bahan**
 1. ESP32 ==> 1 buah
 2. LED ==> 2 buah
-3. Resistor 220 Ohm ==> 1 buah
-4. Resistor 10k Ohm ==> 1 buah
+3. Resistor 220 Ohm ==> 2 buah
+4. Resistor 10k Ohm ==> 2 buah
 5. Push button ==> 2 buah
+6. Kabel jumper
 
 **2. Rangkaian**
 
@@ -142,8 +146,8 @@ Jika push button pertama ditekan, LED pertama akan menyala atau mati, kemudian s
 **1. Alat dan Bahan**
 1. ESP32 ==> 1 buah
 2. LED ==> 5 buah
-3. Resistor 220 Ohm ==> 1 buah
-4. Resistor 10k Ohm ==> 1 buah
+3. Resistor 220 Ohm ==> 5 buah
+4. Resistor 10k Ohm ==> 3 buah
 5. Push button ==> 3 buah
 
 **2. Rangkaian**
