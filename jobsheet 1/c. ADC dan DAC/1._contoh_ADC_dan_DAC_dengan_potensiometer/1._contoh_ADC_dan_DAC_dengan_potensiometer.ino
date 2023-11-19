@@ -1,7 +1,7 @@
 // AISYAH NURUL AINI               (4.31.21.0.03)
 // BRIAN RAHMADITYA                (4.31.21.0.09)
 // SABRINA VIRRY TALITHA MEIRILLA  (4.31.21.0.23)
-// Program Contoh ADC dan DAC menggunakan Potensiometer
+// Program membaca nilai analog yang dihasilkan oleh potensiometer
 
 // Potentiometer terhubung ke GPIO34 (Analog ADC1_CH6)
 const int potPin = 34;
