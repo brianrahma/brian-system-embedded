@@ -14,7 +14,7 @@ Dalam percobaan ini program dibuat untuk dapat menghasilkan sebuah LED yang dapa
 
 ![Jobsheet Embedded](https://github.com/brianrahma/brian-system-embedded/assets/82065700/0815d921-c057-4c0c-ac12-3a3136aee5a4)
 
-## 3. Hasil dan Pembahasan**
+## 3. Hasil dan Pembahasan
 
 ### Hasil Percobaan
 
