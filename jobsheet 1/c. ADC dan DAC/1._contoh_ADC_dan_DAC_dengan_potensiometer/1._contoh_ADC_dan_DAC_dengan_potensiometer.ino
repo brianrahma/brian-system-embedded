@@ -18,5 +18,5 @@ void loop() {
   // Membaca nilai potensiometer
   potValue = analogRead(potPin);
   Serial.println(potValue);       // Menampilkan nilai potensio ke serial monitor
-  delay(500);
+  delay(500);                     // Jeda waktu selama 500 milidetik
 }
