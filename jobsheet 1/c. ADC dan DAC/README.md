@@ -76,11 +76,13 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 
 ![FLOWCHART ADC 2](https://github.com/brianrahma/brian-system-embedded/assets/82065700/8daa59f4-5fa7-4009-be3e-2b65d1c099ac)
 
+Pada percobaan ini potensiometer digunakan untuk mengatur kecerahan LED. Potensiometer terhubung ke pin analog input (GPIO34), sedangkan LED terhubung ke pin analog output (GPIO5). Program ini menggunakan modul PWM (Pulse Width Modulation) untuk mengendalikan kecerahan LED berdasarkan nilai yang dibaca dari potensiometer.
+
+Pada fungsi `setup()`, program menginisialisasi komunikasi serial dengan baudrate 115200 dan mengkonfigurasi modul PWM untuk mengontrol LED. Pengaturan PWM melibatkan penentuan frekuensi (`freq`), channel PWM (`ledChannel`), dan resolusi (`resolution`). Selanjutnya, program menghubungkan saluran PWM dengan pin analog output yang terhubung ke LED. Pada fungsi `loop()`, program membaca nilai analog dari potensiometer menggunakan `analogRead(analogInPin)` dan menyimpannya dalam variabel `sensorValue`. Nilai ini kemudian di-mapping menggunakan fungsi `map()` untuk rentang nilai analog (0 hingga 4095) menjadi rentang nilai PWM (0 hingga 255). Nilai tersebut kemudian digunakan untuk mengatur kecerahan LED melalui fungsi `analogWrite(analogOutPin, outputValue)`.
+
+Dalam percobaan kali ini nilai pembacaan potensiometer dan nilai output ditampilkan ke Serial Monitor. Hasilnya adalah ketika potensiometer diubah, nilai sensor akan berubah sesuai, dan output LED akan disesuaikan untuk mencerminkan perubahan tersebut.
 
 ## 4. Kesimpulan
 
-Percobaan ini merupakan implementasi dari ADC (Analog-to-Digital Converter) menggunakan potensiometer sebagai input analognya. Nilai potensiometer tersebut ditampilkan secara real-time di Serial Monitor. Tujuannya adalah memonitor nilai potensiometer yang dapat diubah oleh pengguna dengan memutar potensiometer tersebut.
-
-<br></br>
-
+Percobaan ini bertujuan mengendalikan kecerahan LED dengan memanfaatkan nilai analog dari sebuah potensiometer. Program menggunakan modul PWM untuk mengubah nilai analog menjadi kecerahan LED yang sesuai. Hasilnya, nilai sensor (potensiometer) dan nilai output LED ditampilkan di Serial Monitor dan LED akan berubah kecerahannya menyesuaikan input analog.
 
