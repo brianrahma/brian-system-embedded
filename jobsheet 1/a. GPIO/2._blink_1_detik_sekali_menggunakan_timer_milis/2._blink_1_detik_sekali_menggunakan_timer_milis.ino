@@ -1,28 +1,34 @@
 // AISYAH NURUL AINI               (4.31.21.0.03)
 // BRIAN RAHMADITYA                (4.31.21.0.09)
 // SABRINA VIRRY TALITHA MEIRILLA  (4.31.21.0.23)
+// Program Blink Led menggunakan Millis
 
-const int ledPin = 2;     // GPIO pin yang akan digunakan untuk LED
-unsigned long previousMillis = 0;  // Waktu terakhir LED dinyalakan
-const long interval = 1000;  // Interval 1 detik
+// mengatur posisi PIN
+const int ledPin = 5;               // LED dihubungkan pada pin GPIO 5
+
+// variable untuk keadaan Led
+int ledState = LOW;                 // kondisi yang akan digunakan untuk set LED
+unsigned long previousMillis = 0;   // waktu Led setelah mati
+const long interval = 1000;         // interval untuk blink (milliseconds)
 
 void setup() {
-  pinMode(ledPin, OUTPUT); // Menginisialisasi LED sebagai Output
+  pinMode(ledPin, OUTPUT);          // Menginisialisasi LED sebagai Output
 }
 
 void loop() {
   unsigned long currentMillis = millis();
 
-  // Cek apakah sudah waktunya mengganti status LED
   if (currentMillis - previousMillis >= interval) {
-    // Simpan waktu terakhir LED dinyalakan
-    previousMillis = currentMillis;
+    previousMillis = currentMillis;                     // Menyimpan waktu terakhir LED ngeblink
 
-    // Balikkan status LED
-    if (digitalRead(ledPin) == LOW) {
-      digitalWrite(ledPin, HIGH);
+    // jika led dalam keadaan mati, maka nyalakan dan sebaliknya
+    if (ledState == LOW) {
+      ledState = HIGH;
     } else {
-      digitalWrite(ledPin, LOW);
+      ledState = LOW;
     }
+
+    // atur nyala atau mati LED sesuai dengan nilai variable ledState
+    digitalWrite(ledPin, ledState);
   }
 }
