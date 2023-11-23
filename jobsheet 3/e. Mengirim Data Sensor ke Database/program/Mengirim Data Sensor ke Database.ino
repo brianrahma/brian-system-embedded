@@ -2,54 +2,54 @@
 // BRIAN RAHMADITYA                (4.31.21.0.09)
 // SABRINA VIRRY TALITHA MEIRILLA  (4.31.21.0.23)
 //Import required libraries
-#include "WiFi.h"
+#include <WiFi.h>
 #include "ESPAsyncWebServer.h"
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
-// Replace with your network credentials
-const char* ssid = "wifikampus";
-const char* password = "12345678.";
-#define DHTPIN 4 // Digital pin connected to the DHT sensor
-// Uncomment the type of sensor in use:
-#define DHTTYPE DHT11 // DHT 11
+
+// Ganti dengan kredensial jaringan Anda
+const char* ssid = "wifikampus"; // Nama SSID WiFi Anda
+const char* password = "12345678."; // Kata sandi WiFi Anda
+
+#define DHTPIN 4 // Pin digital yang terhubung ke sensor DHT
+#define DHTTYPE DHT11 // Jenis sensor DHT yang digunakan (DHT11)
+
 DHT dht(DHTPIN, DHTTYPE);
-// Create AsyncWebServer object on port 80
+
+// Membuat objek AsyncWebServer pada port 80
 AsyncWebServer server(80);
+
+// Fungsi untuk membaca suhu dari sensor DHT
 String readDHTTemperature() {
-  // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
-  // Read temperature as Celsius (the default)
   float t = dht.readTemperature();
-  // Read temperature as Fahrenheit (isFahrenheit = true)
-  //float t = dht.readTemperature(true);
-  // Check if any reads failed and exit early (to try again).
   if (isnan(t)) {
     Serial.println("Failed to read from DHT sensor!");
     return "--";
-  }
-  else {
+  } else {
     Serial.println(t);
     return String(t);
   }
 }
+
+// Fungsi untuk membaca kelembapan dari sensor DHT
 String readDHTHumidity() {
-  // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
   float h = dht.readHumidity();
   if (isnan(h)) {
     Serial.println("Failed to read from DHT sensor!");
     return "--";
-  }
-  else {
+  } else {
     Serial.println(h);
     return String(h);
   }
 }
+
+// HTML untuk halaman web
 const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML><html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-integrity="sha384-
-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
 crossorigin="anonymous">
 <style>
 html {
@@ -106,41 +106,54 @@ xhttp.send();
 }, 10000 ) ;
 </script>
 </html>)rawliteral";
-// Replaces placeholder with DHT values
+
+// Fungsi untuk mengganti placeholder dengan nilai suhu dan kelembapan yang dibaca dari sensor DHT
 String processor(const String& var) {
-  //Serial.println(var);
   if (var == "TEMPERATURE") {
     return readDHTTemperature();
-  }
-  else if (var == "HUMIDITY") {
+  } else if (var == "HUMIDITY") {
     return readDHTHumidity();
   }
   return String();
 }
+
 void setup() {
-  // Serial port for debugging purposes
+  // Memulai komunikasi serial dengan baud rate 115200
   Serial.begin(115200);
+
+  // Memulai sensor DHT
   dht.begin();
-  // Connect to Wi-Fi
+
+  // Menghubungkan ke WiFi
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
     Serial.println("Connecting to WiFi..");
   }
-  // Print ESP32 Local IP Address
+
+  // Mencetak alamat IP lokal ESP32
   Serial.println(WiFi.localIP());
-  // Route for root / web page
+
+  // Route untuk halaman utama / web
   server.on("/", HTTP_GET, [](AsyncWebServerRequest * request) {
     request->send_P(200, "text/html", index_html, processor);
   });
+
+  // Route untuk membaca suhu
   server.on("/temperature", HTTP_GET, [](AsyncWebServerRequest * request) {
     request->send_P(200, "text/plain", readDHTTemperature().c_str());
   });
+
+  // Route untuk membaca kelembapan
   server.on("/humidity", HTTP_GET, [](AsyncWebServerRequest * request) {
     request->send_P(200, "text/plain", readDHTHumidity().c_str());
   });
-  // Start server
+
+  // Menjalankan server
   server.begin();
 }
+
 void loop() {
+  // Kode utama Anda akan berjalan berulang kali di sini
 }
+
