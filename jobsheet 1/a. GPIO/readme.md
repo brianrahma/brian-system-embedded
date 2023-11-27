@@ -70,7 +70,7 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 ![280445751-28954bd9-7499-47e5-b546-ec70c1f35ab9](https://github.com/brianrahma/brian-system-embedded/assets/82065700/ad2bc2d9-5b5f-41f1-9f6d-47f4b4ce7b30)
 
 <p align="justify">Pada percobaan ini merupakan Blink LED menggunakan fungsi millis(). Programnya memiliki tiga utama bagian: deklarasi variabel dan konstanta, fungsi setup(), dan fungsi loop(). Pertama, dalam bagian deklarasi, ditetapkan posisi pin untuk LED (ledPin) yaitu 5 dan diinisialisasi variabel-variabel seperti ledState yang menunjukkan keadaan LED (LOW atau HIGH), previousMillis yang menyimpan waktu terakhir LED berubah, dan interval yang merupakan interval waktu untuk blink dalam milidetik.
-
+   
 Kemudian, dalam fungsi setup(), pin yang terhubung ke LED (ledPin) diatur sebagai OUTPUT menggunakan perintah pinMode(). Fungsi loop() adalah inti dari program yang berjalan terus menerus. Di dalam loop, waktu saat ini (currentMillis) diambil menggunakan millis(). Selanjutnya, dilakukan pengecekan apakah selisih waktu antara currentMillis dan previousMillis sudah mencapai nilai interval atau belum. Jika sudah, program menyimpan currentMillis sebagai previousMillis untuk dijadikan referensi waktu terakhir perubahan LED. Selanjutnya, dilakukan perubahan keadaan LED (dari LOW ke HIGH atau sebaliknya) dan diaplikasikan dengan menggunakan perintah digitalWrite() pada pin ledPin sesuai dengan nilai ledState. Program ini menciptakan efek blink pada LED dengan interval waktu tertentu menggunakan millis().</p>
 
 ## 4. Kesimpulan
