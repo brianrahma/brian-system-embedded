@@ -97,10 +97,10 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 ## 4. Hasil dan Pembahasan
 
  **Hasil percobaan :**
- 
-![B gif](https://github.com/brianrahma/brian-system-embedded/assets/82065700/ee6728da-75e2-482c-941e-e2a550e82682)
 
-<p align="justify">Pada percobaan ini ESP32 digunakan sebagai client yang terhubung ke jaringan WiFi yang telah ditentukan SSID dan passwordnya pada program. Hasil dari percobaan ini adalah terbentuknya koneksi WiFi antara perangkat ESP32 (client) dan jaringan WiFi yang ditentukan, dengan informasi koneksi yang ditampilkan di Serial Monitor yaitu alamat IP lokal dan nilai RSSI. Nilai RSSI memberikan indikasi kekuatan sinyal WiFi yang diterima, dan ini dapat memberikan informasi tentang seberapa baik atau buruk kualitas koneksi WiFi.</p>
+ ![](https://github.com/brianrahma/tahunpertama/blob/main/C%20gif.gif)
+
+<p align="justify">Pada percobaan ini mendapatkan pengembangan dari percobaan sebelumnya yakni ESP32 sebagai client dapat re-connect atau menghubungkan kembali ke jaringan WiFi apabila koneksi terputus. Hasilnya jika koneksi WiFi terputus dan telah melewati interval yang ditentukan (30 detik), maka ESP32 akan mencoba untuk menghubungkan WiFi kembali dengan menggunakan fungsi 'WiFi.reconnect()'
 <br>
 
 
