@@ -35,7 +35,7 @@ Alat dan bahan yang digunakan dalam jobsheet ini, antara lain:
 ## 2. Source Code
 
 Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/a.%20ESP32%20Wi-Fi%20Modes%20dan%20Wifi-Scan/program/ESP32%20Wi-Fi%20Modes%20dan%20Wifi-Scan.ino"> disini </a> atau dibawah ini
-![carbon](https://github.com/brianrahma/brian-system-embedded/assets/82065700/5313b9b9-5f9d-44b4-aa31-1b3a373e2f2b)
+![carbon (3)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/ac235960-d8f9-4ae1-acc6-5da18f9cdb14)
 
 ## 3. Flowchart
 
@@ -62,7 +62,7 @@ Hasilnya dapat dilihat pada serial monitor, pertama akan mencetak "scan start" s
 ## 2. Source Code
 
 Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/b.%20Menghubungkan%20ESP32%20dengan%20Jaringan%20Wi-Fi/program/ESP32%20connect%20Wi-Fi.ino"> disini </a> atau dibawah ini
-![carbon (1)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/1a1fbf51-abfc-470b-a687-4987439654de)
+![carbon (2)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/9fe36371-4b73-4d26-964d-11cd58cf77f7)
 
 ## 3. Flowchart
 
@@ -76,6 +76,32 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 ![B gif](https://github.com/brianrahma/brian-system-embedded/assets/82065700/ee6728da-75e2-482c-941e-e2a550e82682)
 
 <p align="justify">Pada percobaan ini ESP32 digunakan sebagai client yang terhubung ke jaringan WiFi yang telah ditentukan SSID dan passwordnya pada program. Hasil dari percobaan ini adalah terbentuknya koneksi WiFi antara perangkat ESP32 (client) dan jaringan WiFi yang ditentukan, dengan informasi koneksi yang ditampilkan di Serial Monitor yaitu alamat IP lokal dan nilai RSSI. Nilai RSSI memberikan indikasi kekuatan sinyal WiFi yang diterima, dan ini dapat memberikan informasi tentang seberapa baik atau buruk kualitas koneksi WiFi.</p>
+<br>
+
+# C. Menghubungkan Kembali (Re-connect) ESP32 dengan Jaringan Wi-Fi
+
+## 1. Rangkaian
+
+![LAPTOP ESP32](https://github.com/brianrahma/brian-system-embedded/assets/82065700/df22b4a6-37f9-4eda-8d9c-644d8d0cfec3)
+
+## 2. Source Code
+
+Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/c.%20Re-connect%20ESP32%20Jaringan%20Wi-Fi/program/Re-connect%20ESP32%20Wi-Fi.ino"> disini </a> atau dibawah ini
+![carbon (4)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/17393c61-0c66-4b97-a746-39e79dda8431)
+
+
+## 3. Flowchart
+
+![Menghubungkan Kembali (Re-connect) ESP32 dengan Jaringan Wi-Fi](https://github.com/brianrahma/brian-system-embedded/assets/82065700/210e62c2-9e58-4541-a2be-b5aecc71dba3)
+
+## 4. Hasil dan Pembahasan
+
+ **Hasil percobaan :**
+ 
+![B gif](https://github.com/brianrahma/brian-system-embedded/assets/82065700/ee6728da-75e2-482c-941e-e2a550e82682)
+
+<p align="justify">Pada percobaan ini ESP32 digunakan sebagai client yang terhubung ke jaringan WiFi yang telah ditentukan SSID dan passwordnya pada program. Hasil dari percobaan ini adalah terbentuknya koneksi WiFi antara perangkat ESP32 (client) dan jaringan WiFi yang ditentukan, dengan informasi koneksi yang ditampilkan di Serial Monitor yaitu alamat IP lokal dan nilai RSSI. Nilai RSSI memberikan indikasi kekuatan sinyal WiFi yang diterima, dan ini dapat memberikan informasi tentang seberapa baik atau buruk kualitas koneksi WiFi.</p>
+<br>
 
 
 
