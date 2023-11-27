@@ -2,7 +2,7 @@
 
 ## 1. Keterangan Singkat (Abstrak)
 
-Dalam percobaan ini program dibuat untuk dapat membaca nilai analog yang dihasilkan oleh potensiometer yang terhubung ke GPIO34 dan menampilkan nilai tersebut melalui komunikasi serial.
+<p align="justify">Dalam percobaan ini program dibuat untuk dapat membaca nilai analog yang dihasilkan oleh potensiometer yang terhubung ke GPIO34 dan menampilkan nilai tersebut melalui komunikasi serial.
 
 ## 2. Alat dan Bahan
 1. ESP32                     ==> 1 buah
@@ -31,22 +31,22 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 
 ![283651896-fb0bebfc-f73a-4bbc-886b-bc8e87bf75fc](https://github.com/brianrahma/brian-system-embedded/assets/82065700/1da6ca03-86a3-4d92-9556-40f6d6c60286)
 
-Pada percobaan ini program dirancang untuk membaca nilai analog dari sebuah potensiometer yang terhubung ke pin GPIO34 pada ESP32. Setiap kali program dijalankan, nilai yang dibaca dari potensiometer ditampilkan di Serial Monitor melalui komunikasi serial dengan baudrate 115200.
+<p align="justify">Pada percobaan ini program dirancang untuk membaca nilai analog dari sebuah potensiometer yang terhubung ke pin GPIO34 pada ESP32. Setiap kali program dijalankan, nilai yang dibaca dari potensiometer ditampilkan di Serial Monitor melalui komunikasi serial dengan baudrate 115200.
 
-Pada fungsi `setup()`, program menginisialisasi komunikasi serial dengan `Serial.begin(115200)` dan memberikan jeda waktu 1 detik menggunakan `delay(1000)`. Pada fungsi `loop()`, terdapat beberapa langkah utama. Pertama, program membaca nilai analog dari potensiometer menggunakan fungsi `analogRead(potPin)` dan menyimpannya dalam variabel `potValue`. Selanjutnya, nilai potensiometer tersebut ditampilkan di Serial Monitor menggunakan `Serial.println(potValue)`. Serta terdapat delay sebesar 500 ms menggunakan `delay(500)` agar nilai potensiometer tidak terlalu cepat berganti dan lebih mudah diamati di Serial Monitor.
+<p align="justify">Pada fungsi `setup()`, program menginisialisasi komunikasi serial dengan `Serial.begin(115200)` dan memberikan jeda waktu 1 detik menggunakan `delay(1000)`. Pada fungsi `loop()`, terdapat beberapa langkah utama. Pertama, program membaca nilai analog dari potensiometer menggunakan fungsi `analogRead(potPin)` dan menyimpannya dalam variabel `potValue`. Selanjutnya, nilai potensiometer tersebut ditampilkan di Serial Monitor menggunakan `Serial.println(potValue)`. Serta terdapat delay sebesar 500 ms menggunakan `delay(500)` agar nilai potensiometer tidak terlalu cepat berganti dan lebih mudah diamati di Serial Monitor.
 
-Percobaan ini bertujuan memonitor nilai potensiometer secara real-time melalui Serial Monitor. Potensiometer, dapat diubah nilai analognya dengan cara memutarnya. Hasilnya adalah nilai potensiometer tersebut akan terus ditampilkan di Serial Monitor, nilainya dengan rentang 0 hingga 4095.
+<p align="justify">Percobaan ini bertujuan memonitor nilai potensiometer secara real-time melalui Serial Monitor. Potensiometer, dapat diubah nilai analognya dengan cara memutarnya. Hasilnya adalah nilai potensiometer tersebut akan terus ditampilkan di Serial Monitor, nilainya dengan rentang 0 hingga 4095.
 
 ## 4. Kesimpulan
 
-Percobaan ini merupakan implementasi dari ADC (Analog-to-Digital Converter) menggunakan potensiometer sebagai input analognya. Nilai potensiometer tersebut ditampilkan secara real-time di Serial Monitor. Tujuannya adalah memonitor nilai potensiometer yang dapat diubah oleh pengguna dengan memutar potensiometer tersebut.
+<p align="justify">Percobaan ini merupakan implementasi dari ADC (Analog-to-Digital Converter) menggunakan potensiometer sebagai input analognya. Nilai potensiometer tersebut ditampilkan secara real-time di Serial Monitor. Tujuannya adalah memonitor nilai potensiometer yang dapat diubah oleh pengguna dengan memutar potensiometer tersebut.
 
 <br></br>
 # 2. ADC dan DAC | Mengatur Cahaya LED dengan Potensiometer menggunakan ADC dan PWM
 
 ## 1. Keterangan Singkat (Abstrak)
 
-Dalam percobaan ini program dibuat untuk mengendalikan kecerahan LED menggunakan potensiometer sebagai input analog untuk mengatur kecerahan sebuah LED menggunakan modul PWM. Dengan membaca nilai dari potensiometer, program kemudian mengonversinya ke nilai PWM yang dapat mengendalikan kecerahan LED. 
+<p align="justify">Dalam percobaan ini program dibuat untuk mengendalikan kecerahan LED menggunakan potensiometer sebagai input analog untuk mengatur kecerahan sebuah LED menggunakan modul PWM. Dengan membaca nilai dari potensiometer, program kemudian mengonversinya ke nilai PWM yang dapat mengendalikan kecerahan LED. 
 
 ## 2. Alat dan Bahan
 1. ESP32                     ==> 1 buah
@@ -76,13 +76,12 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 
 ![FLOWCHART ADC 2](https://github.com/brianrahma/brian-system-embedded/assets/82065700/8daa59f4-5fa7-4009-be3e-2b65d1c099ac)
 
-Pada percobaan ini potensiometer digunakan untuk mengatur kecerahan LED. Potensiometer terhubung ke pin analog input (GPIO34), sedangkan LED terhubung ke pin analog output (GPIO5). Program ini menggunakan modul PWM (Pulse Width Modulation) untuk mengendalikan kecerahan LED berdasarkan nilai yang dibaca dari potensiometer.
+<p align="justify">Pada percobaan ini potensiometer digunakan untuk mengatur kecerahan LED. Potensiometer terhubung ke pin analog input (GPIO34), sedangkan LED terhubung ke pin analog output (GPIO5). Program ini menggunakan modul PWM (Pulse Width Modulation) untuk mengendalikan kecerahan LED berdasarkan nilai yang dibaca dari potensiometer.
 
-Pada fungsi `setup()`, program menginisialisasi komunikasi serial dengan baudrate 115200 dan mengkonfigurasi modul PWM untuk mengontrol LED. Pengaturan PWM melibatkan penentuan frekuensi (`freq`), channel PWM (`ledChannel`), dan resolusi (`resolution`). Selanjutnya, program menghubungkan saluran PWM dengan pin analog output yang terhubung ke LED. Pada fungsi `loop()`, program membaca nilai analog dari potensiometer menggunakan `analogRead(analogInPin)` dan menyimpannya dalam variabel `sensorValue`. Nilai ini kemudian di-mapping menggunakan fungsi `map()` untuk rentang nilai analog (0 hingga 4095) menjadi rentang nilai PWM (0 hingga 255). Nilai tersebut kemudian digunakan untuk mengatur kecerahan LED melalui fungsi `analogWrite(analogOutPin, outputValue)`.
+<p align="justify">Pada fungsi `setup()`, program menginisialisasi komunikasi serial dengan baudrate 115200 dan mengkonfigurasi modul PWM untuk mengontrol LED. Pengaturan PWM melibatkan penentuan frekuensi (`freq`), channel PWM (`ledChannel`), dan resolusi (`resolution`). Selanjutnya, program menghubungkan saluran PWM dengan pin analog output yang terhubung ke LED. Pada fungsi `loop()`, program membaca nilai analog dari potensiometer menggunakan `analogRead(analogInPin)` dan menyimpannya dalam variabel `sensorValue`. Nilai ini kemudian di-mapping menggunakan fungsi `map()` untuk rentang nilai analog (0 hingga 4095) menjadi rentang nilai PWM (0 hingga 255). Nilai tersebut kemudian digunakan untuk mengatur kecerahan LED melalui fungsi `analogWrite(analogOutPin, outputValue)`.
 
-Dalam percobaan kali ini nilai pembacaan potensiometer dan nilai output ditampilkan ke Serial Monitor. Hasilnya adalah ketika potensiometer diubah, nilai sensor akan berubah sesuai, dan output LED akan disesuaikan untuk mencerminkan perubahan tersebut.
+<p align="justify">Dalam percobaan kali ini nilai pembacaan potensiometer dan nilai output ditampilkan ke Serial Monitor. Hasilnya adalah ketika potensiometer diubah, nilai sensor akan berubah sesuai, dan output LED akan disesuaikan untuk mencerminkan perubahan tersebut.
 
 ## 4. Kesimpulan
-
-Percobaan ini bertujuan mengendalikan kecerahan LED dengan memanfaatkan nilai analog dari sebuah potensiometer. Program menggunakan modul PWM untuk mengubah nilai analog menjadi kecerahan LED yang sesuai. Hasilnya, nilai sensor (potensiometer) dan nilai output LED ditampilkan di Serial Monitor dan LED akan berubah kecerahannya menyesuaikan input analog.
+<p align="justify">Percobaan ini bertujuan mengendalikan kecerahan LED dengan memanfaatkan nilai analog dari sebuah potensiometer. Program menggunakan modul PWM untuk mengubah nilai analog menjadi kecerahan LED yang sesuai. Hasilnya, nilai sensor (potensiometer) dan nilai output LED ditampilkan di Serial Monitor dan LED akan berubah kecerahannya menyesuaikan input analog.
 
