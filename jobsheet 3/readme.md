@@ -47,11 +47,35 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
  
  ![A gif](https://github.com/brianrahma/brian-system-embedded/assets/82065700/6cef6d0a-9fe6-4cae-a4fb-fe42122918a4)
 
-Dalam percobaan ini ESP32 akan digunakan untuk melakukan pemindaian (scanning) jaringan WiFi di sekitar perangkat ESP32 menggunakan modul WiFi. Tujuan dari percobaan ini adalah untuk menampilkan daftar jaringan WiFi yang terdeteksi berserta dengan informasi seperti nama SSID, kekuatan sinyal (RSSI), dan apakah jaringan tersebut memiliki enkripsi (WPA/WPA2) atau tidak.
+<p align="justify">Dalam percobaan ini ESP32 akan digunakan untuk melakukan pemindaian (scanning) jaringan WiFi di sekitar perangkat ESP32 menggunakan modul WiFi. Tujuan dari percobaan ini adalah untuk menampilkan daftar jaringan WiFi yang terdeteksi berserta dengan informasi seperti nama SSID, kekuatan sinyal (RSSI), dan apakah jaringan tersebut memiliki enkripsi (WPA/WPA2) atau tidak.
 
-Hasilnya dapat dilihat pada serial monitor, pertama akan mencetak "scan start" sebagai tanda dimulainya pemindaian. Jika tidak ada jaringan yang ditemukan, maka program akan mencetak "no networks found". Jika ada jaringan yang ditemukan, program akan mencetak daftar jaringan beserta informasinya, yaitu SSID, kekuatan sinyal, dan tanda "*" jika jaringan tersebut memiliki enkripsi. Program dalam percobaan ini akan terus berjalan secara berulang dengan interval waktu 5 detik untuk scan berikutnya. 
+Hasilnya dapat dilihat pada serial monitor, pertama akan mencetak "scan start" sebagai tanda dimulainya pemindaian. Jika tidak ada jaringan yang ditemukan, maka program akan mencetak "no networks found". Jika ada jaringan yang ditemukan, program akan mencetak daftar jaringan beserta informasinya, yaitu SSID, kekuatan sinyal, dan tanda "*" jika jaringan tersebut memiliki enkripsi. Program dalam percobaan ini akan terus berjalan secara berulang dengan interval waktu 5 detik untuk scan berikutnya.</p>
+
+<br>
  
+# B. Menghubungkan ESP32 dengan Jaringan Wi-Fi
 
+## 1. Rangkaian
+
+![LAPTOP ESP32](https://github.com/brianrahma/brian-system-embedded/assets/82065700/df22b4a6-37f9-4eda-8d9c-644d8d0cfec3)
+
+## 2. Source Code
+
+Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/b.%20Menghubungkan%20ESP32%20dengan%20Jaringan%20Wi-Fi/program/ESP32%20connect%20Wi-Fi.ino"> disini </a> atau dibawah ini
+![carbon (1)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/1a1fbf51-abfc-470b-a687-4987439654de)
+
+## 3. Flowchart
+
+![flowchart](https://github.com/brianrahma/brian-system-embedded/assets/82065700/c17d1699-e415-4569-94d7-4232af6ded0d)
+
+
+## 4. Hasil dan Pembahasan
+
+ **Hasil percobaan :**
+ 
+![B gif](https://github.com/brianrahma/brian-system-embedded/assets/82065700/ee6728da-75e2-482c-941e-e2a550e82682)
+
+<p align="justify">Pada percobaan ini ESP32 digunakan sebagai client yang terhubung ke jaringan WiFi yang telah ditentukan SSID dan passwordnya pada program. Hasil dari percobaan ini adalah terbentuknya koneksi WiFi antara perangkat ESP32 (client) dan jaringan WiFi yang ditentukan, dengan informasi koneksi yang ditampilkan di Serial Monitor yaitu alamat IP lokal dan nilai RSSI. Nilai RSSI memberikan indikasi kekuatan sinyal WiFi yang diterima, dan ini dapat memberikan informasi tentang seberapa baik atau buruk kualitas koneksi WiFi.</p>
 
 
 
