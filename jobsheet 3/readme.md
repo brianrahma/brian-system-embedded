@@ -103,5 +103,71 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 <p align="justify">Pada percobaan ini mendapatkan pengembangan dari percobaan sebelumnya yakni ESP32 sebagai client dapat re-connect atau menghubungkan kembali ke jaringan WiFi apabila koneksi terputus. Hasilnya jika koneksi WiFi terputus dan telah melewati interval yang ditentukan (30 detik), maka ESP32 akan mencoba untuk menghubungkan WiFi kembali dengan menggunakan fungsi 'WiFi.reconnect()'
 <br>
 
+# D. Mengganti Hostname ESP32
+
+## 1. Rangkaian
+
+![LAPTOP ESP32](https://github.com/brianrahma/brian-system-embedded/assets/82065700/df22b4a6-37f9-4eda-8d9c-644d8d0cfec3)
+
+## 2. Source Code
+
+Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/d.%20Mengganti%20Hostname%20ESP32/program/Mengganti%20Hostname%20ESP32.ino"> disini </a> atau dibawah ini
+![carbon (5)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/0fe97a3f-c461-4787-9fa7-2d0fea2ecc96)
+
+## 3. Flowchart
+
+![Mengganti Hostname ESP32](https://github.com/brianrahma/brian-system-embedded/assets/82065700/e07dcb5f-40ee-4ab6-8fac-d9cc19aee2c2)
+
+## 4. Hasil dan Pembahasan
+
+ **Hasil percobaan :**
+ 
+![D gif](https://github.com/brianrahma/brian-system-embedded/assets/82065700/6efe61bb-4b97-4a25-84f8-cba396d183f9)
+
+<p align="justify">Pada percobaan ini ESP32 akan terhubung dengan WiFi yang SSID dan kata sandinya telah diatur, serta mengatur dan menetapkan sebuah hostname khusus. Hasil dari percobaan ini dapat dilihat pada serial monitor, dapat dilihat disitu akan tampil alamat IP yang diperoleh, nilai RSSI, dan hostname baru yang telah ditetapkan sebelumnya menggunakan fungsi  `WiFi.getHostname()`.
+<br>
+
+# E. Mengirim Data Sensor ke Database
+
+## 1. Rangkaian
+
+![Jobsheet Embedded](https://github.com/brianrahma/brian-system-embedded/assets/82065700/7c215281-ec27-43a4-8005-6152e52255c5)
+
+## 2. Source Code
+
+Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/e.%20Mengirim%20Data%20Sensor%20ke%20Database/program/Mengirim%20Data%20Sensor%20ke%20Database.ino"> disini </a>
+
+## 3. Flowchart
+
+![Mengirim Data Sensor ke Database](https://github.com/brianrahma/brian-system-embedded/assets/82065700/30aa664d-7943-4f33-94da-6c1d8f65b824)
+
+## 4. Hasil dan Pembahasan
+
+ **Hasil percobaan :**
+ 
+ ![E gif](https://github.com/brianrahma/brian-system-embedded/assets/82065700/473f3008-71d7-4885-9fee-72bb42bf24eb)
+ 
+ <p align="justify">Percobaan ini merupakan pembuatan server web sederhana pada ESP32 yang dapat memberikan informasi suhu dan kelembapan melalui halaman web. Dalam programnya diperlukan library WiFi, ESPAsyncWebServer, dan Adafruit_Sensor untuk menjalankan fungsi. Untuk membaca suhu dan kelembapan digunakan sebuah sensor DHT11. Hasilnya dapat dilihat pada halaman web dengan mengakses IP Address ESP32 pada browser dan disitu dapat dilihat pemantauan perubahan nilai secara real-time informasi suhu dan kelembapan.
+
+<br>
+
+# F. Pertanyaan dan Tugas
+
+## 1. Rangkaian
+
+
+## 2. Source Code
+
+Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/f.%20pertanyaan%20dan%20tugas/program/TUGAS_REAL.ino"> disini </a>
+
+## 3. Hasil dan Pembahasan
+
+ **Hasil percobaan :**
+ 
+ ![](https://www.youtube.com/watch?v=lyHdP0j-NWQ)
+ 
+ <p align="justify">Percobaan ini merupakan pembuatan server web sederhana pada ESP32 yang dapat memberikan informasi suhu dan kelembapan melalui halaman web. Dalam programnya diperlukan library WiFi, ESPAsyncWebServer, dan Adafruit_Sensor untuk menjalankan fungsi. Untuk membaca suhu dan kelembapan digunakan sebuah sensor DHT11. Hasilnya dapat dilihat pada halaman web dengan mengakses IP Address ESP32 pada browser dan disitu dapat dilihat pemantauan perubahan nilai secara real-time informasi suhu dan kelembapan.
+
+<br>
 
 
