@@ -163,7 +163,7 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 ## 3. Hasil dan Pembahasan
 
  **Hasil percobaan :**
- 
+
  ![](https://github.com/brianrahma/briantod/blob/main/TUGAS-KOMPRS.mp4)
  
  <p align="justify">Percobaan ini merupakan pembuatan server web sederhana pada ESP32 yang dapat memberikan informasi suhu dan kelembapan melalui halaman web. Dalam programnya diperlukan library WiFi, ESPAsyncWebServer, dan Adafruit_Sensor untuk menjalankan fungsi. Untuk membaca suhu dan kelembapan digunakan sebuah sensor DHT11. Hasilnya dapat dilihat pada halaman web dengan mengakses IP Address ESP32 pada browser dan disitu dapat dilihat pemantauan perubahan nilai secara real-time informasi suhu dan kelembapan.
