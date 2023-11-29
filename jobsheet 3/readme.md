@@ -30,12 +30,12 @@ Alat dan bahan yang digunakan dalam jobsheet ini, antara lain:
 
 ## 1. Rangkaian
 
-![LAPTOP ESP32](https://github.com/brianrahma/brian-system-embedded/assets/82065700/df22b4a6-37f9-4eda-8d9c-644d8d0cfec3)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/df22b4a6-37f9-4eda-8d9c-644d8d0cfec3" width="500">
 
 ## 2. Source Code
 
 Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/a.%20ESP32%20Wi-Fi%20Modes%20dan%20Wifi-Scan/program/ESP32%20Wi-Fi%20Modes%20dan%20Wifi-Scan.ino"> disini </a> atau dibawah ini
-![carbon (3)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/ac235960-d8f9-4ae1-acc6-5da18f9cdb14)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/ac235960-d8f9-4ae1-acc6-5da18f9cdb14" width="800">
 
 ## 3. Flowchart
 
@@ -57,12 +57,12 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 
 ## 1. Rangkaian
 
-![LAPTOP ESP32](https://github.com/brianrahma/brian-system-embedded/assets/82065700/df22b4a6-37f9-4eda-8d9c-644d8d0cfec3)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/df22b4a6-37f9-4eda-8d9c-644d8d0cfec3" width="500">
 
 ## 2. Source Code
 
 Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/b.%20Menghubungkan%20ESP32%20dengan%20Jaringan%20Wi-Fi/program/ESP32%20connect%20Wi-Fi.ino"> disini </a> atau dibawah ini
-![carbon (2)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/9fe36371-4b73-4d26-964d-11cd58cf77f7)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/9fe36371-4b73-4d26-964d-11cd58cf77f7" width="800">
 
 ## 3. Flowchart
 
@@ -82,12 +82,12 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 
 ## 1. Rangkaian
 
-![LAPTOP ESP32](https://github.com/brianrahma/brian-system-embedded/assets/82065700/df22b4a6-37f9-4eda-8d9c-644d8d0cfec3)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/df22b4a6-37f9-4eda-8d9c-644d8d0cfec3" width="500">
 
 ## 2. Source Code
 
 Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/c.%20Re-connect%20ESP32%20Jaringan%20Wi-Fi/program/Re-connect%20ESP32%20Wi-Fi.ino"> disini </a> atau dibawah ini
-![carbon (4)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/17393c61-0c66-4b97-a746-39e79dda8431)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/17393c61-0c66-4b97-a746-39e79dda8431" width="800">
 
 
 ## 3. Flowchart
@@ -107,12 +107,12 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 
 ## 1. Rangkaian
 
-![LAPTOP ESP32](https://github.com/brianrahma/brian-system-embedded/assets/82065700/df22b4a6-37f9-4eda-8d9c-644d8d0cfec3)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/df22b4a6-37f9-4eda-8d9c-644d8d0cfec3" width="500">
 
 ## 2. Source Code
 
 Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/d.%20Mengganti%20Hostname%20ESP32/program/Mengganti%20Hostname%20ESP32.ino"> disini </a> atau dibawah ini
-![carbon (5)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/0fe97a3f-c461-4787-9fa7-2d0fea2ecc96)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/0fe97a3f-c461-4787-9fa7-2d0fea2ecc96" width="800">
 
 ## 3. Flowchart
 
@@ -155,7 +155,7 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 
 ## 1. Rangkaian
 
-![Untitled Sketch_bb](https://github.com/brianrahma/brian-system-embedded/assets/82065700/3876402d-90d7-48ed-95bc-ce86d775035d)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/3876402d-90d7-48ed-95bc-ce86d775035d" alt="Girl in a jacket" width="500">
 
 ## 2. Source Code
 
@@ -164,8 +164,8 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 ## 3. Hasil dan Pembahasan
 
  **Hasil percobaan :**
-
- ![](https://github.com/brianrahma/briantod/blob/main/TUGAS-KOMPRS.mp4)
+ 
+ [![Video](https://img.youtube.com/vi/jXnoFqcAkQA/maxresdefault.jpg)](https://youtu.be/lyHdP0j-NWQ)
  
  <p align="justify">
 
