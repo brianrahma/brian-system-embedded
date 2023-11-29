@@ -165,8 +165,7 @@ Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedd
 
  **Hasil percobaan :**
  
- [![Video](https://img.youtube.com/vi/jXnoFqcAkQA/maxresdefault.jpg)](https://youtu.be/lyHdP0j-NWQ)
- 
+ ![](https://github.com/brianrahma/briantod/blob/main/TUGAS-KOMPRS.mp4)
  <p align="justify">
 
 <br>
