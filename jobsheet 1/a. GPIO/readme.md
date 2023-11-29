@@ -14,7 +14,7 @@
    
 ### Rangkaian
 
-![Jobsheet Embedded](https://github.com/brianrahma/brian-system-embedded/assets/82065700/644f9625-2d44-451c-9cf8-ce842129bb98)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/644f9625-2d44-451c-9cf8-ce842129bb98" width="500">
 
 ## 3. Hasil dan Pembahasan
 
@@ -23,7 +23,7 @@
 
 ### Source Code
 Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%201/a.%20GPIO/1._example_blink_interval_100ms__1_detik__2_detik_dan_3_detik_s/1._example_blink_interval_100ms__1_detik__2_detik_dan_3_detik_s.ino"> disini </a> atau dibawah ini
-![GPIO 1](https://github.com/brianrahma/brian-system-embedded/assets/82065700/aa0ebaa2-6c5f-4e67-8542-60c7fbdd4705)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/aa0ebaa2-6c5f-4e67-8542-60c7fbdd4705" width="800">
 
 ### Flowchart
 
