@@ -52,7 +52,7 @@ Dalam percobaan ini program dibuat untuk dapat menghasilkan LED blink 1 detik se
 
 ### Rangkaian
 
-![Jobsheet Embedded](https://github.com/brianrahma/brian-system-embedded/assets/82065700/644f9625-2d44-451c-9cf8-ce842129bb98)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/644f9625-2d44-451c-9cf8-ce842129bb98" width="500">
 
 ## 3. Hasil dan Pembahasan
 
@@ -63,7 +63,7 @@ Dalam percobaan ini program dibuat untuk dapat menghasilkan LED blink 1 detik se
 ### Source Code
 
 Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%201/a.%20GPIO/2._blink_1_detik_sekali_menggunakan_timer_milis/2._blink_1_detik_sekali_menggunakan_timer_milis.ino"> disini </a> atau dibawah ini
-![carbon (1)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/929e1001-114f-4ce8-a32d-53ce97b70e0f)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/929e1001-114f-4ce8-a32d-53ce97b70e0f" width="800">
 
 ### Flowchart
 
@@ -94,7 +94,7 @@ Kemudian, dalam fungsi setup(), pin yang terhubung ke LED (ledPin) diatur sebaga
 
 ### Rangkaian
 
-![Jobsheet Embedded](https://github.com/brianrahma/brian-system-embedded/assets/82065700/644f9625-2d44-451c-9cf8-ce842129bb98)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/644f9625-2d44-451c-9cf8-ce842129bb98" width="500">
 
 ## 3. Hasil dan Pembahasan
 
@@ -105,7 +105,7 @@ Kemudian, dalam fungsi setup(), pin yang terhubung ke LED (ledPin) diatur sebaga
 ### Source Code
 
 Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%201/a.%20GPIO/3._mengendalikan_led_menggunakan_push_button/3._mengendalikan_led_menggunakan_push_button.ino"> disini </a> atau dibawah ini
-![carbon (2)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/4d85a256-725e-40fd-b637-39944ba1028a)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/4d85a256-725e-40fd-b637-39944ba1028a" width="800">
 
 ### flowchart
 
@@ -136,7 +136,7 @@ Fungsi loop() merupakan inti program yang berjalan terus menerus. Di dalam loop,
 
 ### Rangkaian
 
-![280174754-389106d1-e4a8-41c3-8bed-ea941e62d3db](https://github.com/brianrahma/brian-system-embedded/assets/82065700/44dc01bb-f4f2-4a04-a194-9135b80f85e2)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/44dc01bb-f4f2-4a04-a194-9135b80f85e2" width="500">
 
 ## 3. Hasil dan Pembahasan
 
@@ -147,7 +147,7 @@ Fungsi loop() merupakan inti program yang berjalan terus menerus. Di dalam loop,
 ### Source Code
 
 Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%201/a.%20GPIO/4._push_button_ke-2_ditekan_maka_LED_blink_500ms_sekali/4._push_button_ke-2_ditekan_maka_LED_blink_500ms_sekali.ino"> disini </a> atau dibawah ini
-![carbon (3)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/1a30f03e-3a84-4078-91e6-e87dfe39050c)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/1a30f03e-3a84-4078-91e6-e87dfe39050c" width="800">
 
 ### Flowchart
 
@@ -177,7 +177,7 @@ Fungsi loop() merupakan inti program yang berjalan terus menerus. Di dalam loop,
 
 ### Rangkaian
 
-![280177873-81dfe4c2-b0fe-4576-8de2-ab5ee3ced849](https://github.com/brianrahma/brian-system-embedded/assets/82065700/f2f7564e-75b6-4791-ab99-6bae22467d27)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/f2f7564e-75b6-4791-ab99-6bae22467d27" width="500">
 
 ## 3. Hasil dan Pembahasan
 
@@ -188,7 +188,8 @@ Fungsi loop() merupakan inti program yang berjalan terus menerus. Di dalam loop,
 ### Sorce Code
 
 Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%201/a.%20GPIO/5._push_button_ke-3_ditekan_maka_LED_running/5._push_button_ke-3_ditekan_maka_LED_running.ino"> disini </a> atau dibawah ini
-![carbon (4)](https://github.com/brianrahma/brian-system-embedded/assets/82065700/b9a6738f-8cf2-45af-98ec-b1685ef30919)
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/b9a6738f-8cf2-45af-98ec-b1685ef30919" width="800">
+
 ### Flowchart
 
 ![283578306-f33ec0e3-478f-4588-b53f-67eb0437223b](https://github.com/brianrahma/brian-system-embedded/assets/82065700/d69fc663-fc98-407b-8372-1ccb0608dfcc)
