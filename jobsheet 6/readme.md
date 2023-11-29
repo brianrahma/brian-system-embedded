@@ -6,6 +6,6 @@ Jobsheet 6 merupakan jobsheet yang menggunakan protokol MQTT dalam prakteknya. D
 2. **Menerima Data JSON Melalui Protokol MQTT:** Belajar tentang menerima data dalam bentuk JSON menggunakan MQTT.
 3. **Mengirim Dummy Data untuk Simulasi I/O Menggunakan Hardware:** Belajar tentang mengirim data dummy menggunakan ekstensi MQTTbox.
 
-Jobsheet ini bertujuan untuk memberikan pemahaman kepada mahasiswa tentang alur kerja, kegunaan, dan manfaat protokol MQTT dalam konteks Internet of Things (IoT). Selain itu, tujuan lainnya adalah memberikan keterampilan kepada mahasiswa untuk mengimplementasikan protokol MQTT dalam sebuah sistem IoT dengan fokus pada fungsi monitoring dan kendali. Dengan menyelesaikan jobsheet ini, diharapkan mahasiswa dapat mengaplikasikan konsep dan teknologi MQTT secara praktis untuk membangun solusi yang efektif dalam mengelola dan mengendalikan perangkat IoT.
+Jobsheet ini bertujuan untuk memberikan pemahaman tentang alur kerja, kegunaan, dan manfaat protokol MQTT dalam konteks Internet of Things (IoT). Selain itu, tujuan lainnya adalah memberikan keterampilan mengimplementasikan protokol MQTT dalam sebuah sistem IoT dengan fokus pada fungsi monitoring dan kendali. 
 
 Selamat mencoba dan semoga bermanfaat!
