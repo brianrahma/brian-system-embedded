@@ -6,6 +6,7 @@ Dalam percobaan ini program dibuat untuk dapat mengirim pesan atau data dengan m
 
 ## 2. Alat dan Bahan
 1. Laptop yang terpasang Node-Red
+2. MQTTBox
 
 ## 3. Hasil dan Pembahasan
 
