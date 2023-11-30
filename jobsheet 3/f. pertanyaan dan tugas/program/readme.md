@@ -6,9 +6,7 @@
 
 ## 2. Source Code
 
-Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/f.%20pertanyaan%20dan%20tugas/program/TUGAS_REAL.ino"> disini </a> atau dibawah ini
-
-<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/daf94508-9387-4c6a-94b2-00f460a3c868" width="700">
+Program dapat dilihat <a href="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%203/f.%20pertanyaan%20dan%20tugas/program/TUGAS_REAL.ino"> disini </a>
 
 ## 3. Hasil dan Pembahasan
 
