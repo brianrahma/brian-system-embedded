@@ -4,7 +4,7 @@
 
 ## 1. Keterangan Singkat (Abstrak)
 
-Dalam percobaan ini program dibuat untuk dapat memahami bagaimana cara untuk mengecek kerja dari sensor RFID. Percobaan ini untuk membaca dan memverifikasi kartu RFID menggunakan modul RFID (MFRC522) dengan ESP32.
+<p align="justify">Dalam percobaan ini program dibuat untuk dapat memahami bagaimana cara untuk mengecek kerja dari sensor RFID. Percobaan ini untuk membaca dan memverifikasi kartu RFID menggunakan modul RFID (MFRC522) dengan ESP32.
 
 ## 2. Rangkaian
 
@@ -46,4 +46,4 @@ Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/b
 
 https://github.com/brianrahma/brian-system-embedded/assets/82065700/851cfac7-f156-44d5-ae7e-32bb988054aa
 
-Dalam praktikum ini kita dapat mengetahui program agar Tag RFID yang terbaca sebelumya dapat digunakan untuk hak akses. Apabila Tag RFID didekatkan pada Reader, maka LED Hijau akan menyala, servo akan bergerak ke kanan (lalu kembali ke posisi semula setelah 3 detik) dan di Serial Monitor akan tertampil pesan “Akses Diterima, Silahkan Masuk”. Apabila Tag RFID tidak dikenali, maka LED Merah akan menyala, servo tidak bergerak dan di Serial Monitor akan tertampil pesan “Akses Ditolak”. Gunakan Tag RFID lain untuk mencobanya.
+<p align="justify">Dalam praktikum ini kita dapat mengetahui program agar Tag RFID yang terbaca sebelumya dapat digunakan untuk hak akses. Apabila Tag RFID didekatkan pada Reader, maka LED Hijau akan menyala, servo akan bergerak ke kanan (lalu kembali ke posisi semula setelah 3 detik) dan di Serial Monitor akan tertampil pesan “Akses Diterima, Silahkan Masuk”. Apabila Tag RFID tidak dikenali, maka LED Merah akan menyala, servo tidak bergerak dan di Serial Monitor akan tertampil pesan “Akses Ditolak”. Gunakan Tag RFID lain untuk mencobanya.
