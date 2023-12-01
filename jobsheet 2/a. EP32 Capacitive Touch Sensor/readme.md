@@ -10,7 +10,7 @@ Dalam percobaan ini program dibuat untuk dapat memahami bagaimana cara kerja pro
 
 ## 3. Source Code
 Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/1.%20program%20contoh%20touch%20test/touch_1.ino"> disini </a> atau dibawah ini
-![Program contoh touch](https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a7fa7af9-3a41-4f59-b262-d289d74a95a7)
+<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a7fa7af9-3a41-4f59-b262-d289d74a95a7" width="800">
 
 ## 4. Hasil dan Pembahasan
 
@@ -34,7 +34,7 @@ Dalam percobaan ini program dibuat untuk dapat menghasilkan LED akan memberikan 
 ## 3. Source Code
 
 Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/2.%20LED%20menyala%20ketika%20sensor%20disentuh%2C%20dan%20LED%20akan%20mati%20ketika%20sensor%20tidak%20disentuh/touch_2.ino"> disini </a> atau dibawah ini
-![LED menyala ketika sensor disentuh](https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/c6c95bb7-e30f-444d-8647-563d43122433)
+<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/c6c95bb7-e30f-444d-8647-563d43122433" width="800">
 
 ## 4. Hasil dan Pembahasan
 
@@ -58,7 +58,7 @@ Dalam percobaan ini program dibuat untuk dapat melihat ketika sensor disentuh, L
 ## 3. Source Code
 
 Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/3.%20ketika%20sensor%20disentuh%2C%20LED%20menyala%20Blink/touch_3.ino"> disini </a> atau dibawah ini
-![Sensor disentuh, LED Blink menyala](https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/58c30ecc-3956-4c74-baf2-fbbc00b837d9)
+<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/58c30ecc-3956-4c74-baf2-fbbc00b837d9" width="800">
 
 ## 4. Hasil dan Pembahasan
 
@@ -82,7 +82,7 @@ Dalam percobaan ini program dibuat untuk menguji sentuhan pada modul ESP32 denga
 ## 3. Source Code
 
 Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/4.%20ketika%20LED%20menyala%20Serial%20Monitor%20menampilkan%20angka%20yang%20akan%20bertambah%20setiap%20kali%20sensor%20disentuh/touch_4.ino"> disini </a> atau dibawah ini
-![LED menyala Serial Monitor menampilkan angka yang akan bertambah setiap kali sensor disentuh](https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/143daddd-db19-40c0-a695-77d3cc0cf1e1)
+<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/143daddd-db19-40c0-a695-77d3cc0cf1e1" width="800">
 
 ## 4. Hasil dan Pembahasan
 
@@ -100,12 +100,12 @@ Dalam percobaan ini digunakan 3 LED yang akan menyala running saat sensor disent
 
 ## 2. Rangkaian
 
-<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/a2ec94fc-6dae-40a9-9d52-f26ad5704a8e" width="800">
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/a2ec94fc-6dae-40a9-9d52-f26ad5704a8e" width="600">
 
 ## 3. Source Code
 
 Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/5.%20LED%20nyala%20running%20saat%20sensor%20disentuh/touch_5.ino"> disini</a> atau dibawah ini
-![LED nyala running saat sensor disentuh](https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/83c476ae-a76f-447c-9ecf-2c20fee24fd4)
+<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/83c476ae-a76f-447c-9ecf-2c20fee24fd4" width="800">
 
 ## 4. Hasil dan Pembahasan
 
