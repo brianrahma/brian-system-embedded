@@ -1,6 +1,6 @@
 # B. Mengakses Sensor DHT 11 (Single Wire / BUS)
 
-# 1. Sensor DHT 11 | A. Cek Sensor DHT11
+# 1. Sensor DHT 11 | Cek Sensor DHT11
 
 ## 1. Keterangan Singkat (Abstrak)
 
