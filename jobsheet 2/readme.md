@@ -22,4 +22,4 @@ Terdapat 3 percobaan dalam jobsheet ini yaitu :
 7) Resistor 330,1K, 10K Ohm (@ 3)
 
 > [!NOTE]  
-> *Buka folder-folder subjob untuk melihat laporan percobaan*
+> *Buka folder subjob percobaan untuk melihat laporan*
