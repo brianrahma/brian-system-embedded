@@ -2,7 +2,7 @@
 
 ## 1. Keterangan Singkat (Abstrak)
 
-<p align="justify">Percobaan ini untuk percobaan menggunakan function node di Node-RED. Buat sebuah flow dengan menggabungkan inject node, function node, dan debug node. Inject node digunakan untuk mengirim pesan, function node untuk menjalankan kode JavaScript terhadap pesan, dan debug node untuk menampilkan pesan dalam sidebar Debug pada editor Node-RED.
+<p align="justify">Percobaan ini menggunakan function node di Node-RED. Buat sebuah flow dengan menggabungkan inject node, function node, dan debug node. Inject node digunakan untuk mengirim pesan, function node untuk menjalankan kode JavaScript terhadap pesan, dan debug node untuk menampilkan pesan dalam sidebar Debug pada editor Node-RED.
 
 
 ## 2. Alat dan Bahan
