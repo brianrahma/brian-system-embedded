@@ -9,4 +9,4 @@ C. Menggunakan Switch Node
 D. Menggunakan JSON Parsing
 E. Pertanyaan & Tugas
   
-Jobsheet ini bertujuan memberikan pemahaman dasar pemrograman pada Node-Red kepada mahasiswa. Melalui percobaan ini, diharapkan mahasiswa mampu memahami konsep dasar pemrograman visual dengan Node-Red, termasuk menghubungkan node, memahami logika pemrograman visual, dan memanfaatkannya untuk membuat alur kerja sederhana. Selain itu, tujuan lainnya adalah agar mahasiswa dapat mengaplikasikan pengetahuan yang diperoleh dalam membangun sebuah aplikasi server sederhana menggunakan Node-Red.
+<p align="justify">Jobsheet ini bertujuan memberikan pemahaman dasar pemrograman pada Node-Red kepada mahasiswa. Melalui percobaan ini, diharapkan mahasiswa mampu memahami konsep dasar pemrograman visual dengan Node-Red, termasuk menghubungkan node, memahami logika pemrograman visual, dan memanfaatkannya untuk membuat alur kerja sederhana. Selain itu, tujuan lainnya adalah agar mahasiswa dapat mengaplikasikan pengetahuan yang diperoleh dalam membangun sebuah aplikasi server sederhana menggunakan Node-Red.
