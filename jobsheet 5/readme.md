@@ -1,16 +1,12 @@
 # Jobsheet 5 - PEMROGRAMAN DASAR NODE-RED
 
-<p align="justify">Node-RED adalah sebuah tool berbasis browser untuk membuat aplikasi Internet of Things (IoT) yang mana lingkungan pemrograman visualnya mempermudah penggunanya
-untuk membuat aplikasi sebagai “flow”. Flow ini terbentuk dari node-node yang saling berhubungan di mana tiap node melakukan tugas tertentu. Walaupun Node-RED didesain
-untuk Internet of Things (IoT), ia juga dapat digunakan untuk keperluan umum dan untuk berbagai macam jenis aplikasi.
+<p align="justify">Node-RED adalah sebuah tool berbasis browser untuk membuat aplikasi Internet of Things (IoT) yang mana lingkungan pemrograman visualnya mempermudah penggunanya untuk membuat aplikasi sebagai “flow”. Flow ini terbentuk dari node-node yang saling berhubungan di mana tiap node melakukan tugas tertentu. Walaupun Node-RED didesain untuk Internet of Things (IoT), ia juga dapat digunakan untuk keperluan umum dan untuk berbagai macam jenis aplikasi. Bahasa pemrograman yang digunakan oleh Node-Red adalah JavaScript.
 
-
-Jobsheet 6 merupakan jobsheet yang menggunakan protokol MQTT dalam prakteknya. Dalam jobsheet ini terdapat beberapa modul subjob yang mencakup berbagai aspek penting, termasuk:
-
-1. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%206/A.%20Koneksi%20MQTT%20Broker">**Koneksi MQTT Broker:**</a> Belajar melakukan koneksi dengan broker dan menerima pesan/data antara perangkat atau aplikasi. 
-2. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%206/B.%20Menerima%20Data%20JSON%20Melalui%20Protokol%20MQTT">**Menerima Data JSON Melalui Protokol MQTT:**</a> Belajar tentang menerima data dalam bentuk JSON menggunakan MQTT.
-3. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%206/C.%20Mengirim%20Dummy%20Data%20untuk%20Simulasi%20IO%20Menggunakan%20Hardware">**Mengirim Dummy Data untuk Simulasi I/O Menggunakan Hardware:**</a> Belajar tentang mengirim data dummy menggunakan ekstensi MQTTbox.
-
-Jobsheet ini bertujuan untuk memberikan pemahaman tentang alur kerja, kegunaan, dan manfaat protokol MQTT dalam konteks Internet of Things (IoT). Selain itu, tujuan lainnya adalah memberikan keterampilan mengimplementasikan protokol MQTT dalam sebuah sistem IoT dengan fokus pada fungsi monitoring dan kendali. 
-
-Selamat mencoba dan semoga bermanfaat!
+<p align="justify">Dalam jobsheet ini terdapat beberapa modul subjob yang mencakup berbagai aspek penting, termasuk:
+A. Basic Flow
+B. Menggunakan Function Node
+C. Menggunakan Switch Node
+D. Menggunakan JSON Parsing
+E. Pertanyaan & Tugas
+  
+Jobsheet ini bertujuan memberikan pemahaman dasar pemrograman pada Node-Red kepada mahasiswa. Melalui percobaan ini, diharapkan mahasiswa mampu memahami konsep dasar pemrograman visual dengan Node-Red, termasuk menghubungkan node, memahami logika pemrograman visual, dan memanfaatkannya untuk membuat alur kerja sederhana. Selain itu, tujuan lainnya adalah agar mahasiswa dapat mengaplikasikan pengetahuan yang diperoleh dalam membangun sebuah aplikasi server sederhana menggunakan Node-Red.
