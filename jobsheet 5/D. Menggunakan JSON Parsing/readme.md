@@ -1,8 +1,8 @@
-# C. Menggunakan Switch Node
+# D. Menggunakan JSON Parsing
 
 ## 1. Keterangan Singkat (Abstrak)
 
-<p align="justify">Dalam percobaan ini digunakan switch node yang merupakan salah satu node yang umum digunakan di Node-RED untuk mengarahkan alur berdasarkan kondisi tertentu. Node ini dapat digunakan untuk memfilter atau membagi alur berdasarkan nilai variabel atau kondisi tertentu. Switch node disini dikonfigurasi untuk dua kondisi yakni >28 dan <=28.
+<p align="justify">Dalam percobaan ini digunakan JSON node yang dapat digunakan untuk melakukan parsing (mengurai) data JSON. Di Node-RED, JSON parsing digunakan untuk mengonversi data dalam format JSON menjadi objek JavaScript atau sebaliknya.
 
 ## 2. Alat dan Bahan
 
@@ -12,6 +12,6 @@ Laptop yang terpasang Node-Red
 
 ### Hasil Percobaan
 
-<img src="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%205/C.%20Menggunakan%20Switch%20Node/Flow%20switch%20node.png" width="600">
+<img src="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%205/D.%20Menggunakan%20JSON%20Parsing/Flow%20JSON%20Parser.png" width="600">
 
-<p align="justify">Pada percobaan ini output yang dihasilkan yaitu berupa data number “30” dan "27". Switch node disini digunakan untuk memisahkan aliran data menjadi dua jalur berdasarkan nilai tertentu. Switch node tersebut dirancang untuk mengarahkan aliran data (pesan) berdasarkan kondisi atau aturan yang telah tetapkan, dimana ditetapkan dua kondisi yakni >28 dan <=28. Misalnya pada inject node pertama diberikan data 30 (>28), maka data akan diarahkan ke output 1. Lalu pada inject node kedua diberikan data 27 (<=28), maka data akan diarahkan ke output 2.
+<p align="justify">Pada percobaan ini terdapat input data JSON yaitu {"temp":27,"humidity":50}. Lalu input tersebut diarahkan ke node JSON untuk mengurai payload pesan. Setelah diurai (parsing), diarahkan ke node function yang diberi program untuk mengambil nilai suhu (temp) atau nilai kelembapan (humidity) dari objek JSON yang sudah di-parse dan menetapkannya sebagai nilai baru dan diatur sebagai payload pesan. Dengan ini maka outputnya akan tampil pada node debug yakni 27 atau 50 sesuai dengan program yang ditetapkan di node function.
