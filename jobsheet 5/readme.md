@@ -5,11 +5,11 @@
 
 <p align="justify">Dalam jobsheet ini terdapat beberapa modul subjob yang mencakup berbagai aspek penting, termasuk:
 
-  1. Basic Flow
-  2. Menggunakan Function Node
-  3. Menggunakan Switch Node
-  4. Menggunakan JSON Parsing
-  5. Pertanyaan & Tugas
+  1. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%205/A.%20Basic%20Flow">Basic Flow</a>
+  2. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%205/B.%20Menggunakan%20Function%20Node">Menggunakan Function Node
+  3. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%205/C.%20Menggunakan%20Switch%20Node">Menggunakan Switch Node
+  4. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%205/D.%20Menggunakan%20JSON%20Parsing">Menggunakan JSON Parsing
+  5. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%205/PERTANYAAN%20%26%20TUGAS">Pertanyaan & Tugas
   
 <p align="justify">Jobsheet ini bertujuan memberikan pemahaman dasar pemrograman pada Node-Red kepada mahasiswa. Melalui percobaan ini, diharapkan mahasiswa mampu memahami konsep dasar pemrograman visual dengan Node-Red, termasuk menghubungkan node, memahami logika pemrograman visual, dan memanfaatkannya untuk membuat alur kerja sederhana. Selain itu, tujuan lainnya adalah agar mahasiswa dapat mengaplikasikan pengetahuan yang diperoleh dalam membangun sebuah aplikasi server sederhana menggunakan Node-Red.
 
