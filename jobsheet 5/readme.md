@@ -3,8 +3,9 @@
 <p align="justify">Node-RED adalah sebuah tool berbasis browser untuk membuat aplikasi Internet of Things (IoT) yang mana lingkungan pemrograman visualnya mempermudah penggunanya untuk membuat aplikasi sebagai “flow”. Flow ini terbentuk dari node-node yang saling berhubungan di mana tiap node melakukan tugas tertentu. Walaupun Node-RED didesain untuk Internet of Things (IoT), ia juga dapat digunakan untuk keperluan umum dan untuk berbagai macam jenis aplikasi. Bahasa pemrograman yang digunakan oleh Node-Red adalah JavaScript.
 
 <p align="justify">Dalam jobsheet ini terdapat beberapa modul subjob yang mencakup berbagai aspek penting, termasuk:
-1. Basic Flow
-2. Menggunakan Function Node
+
+  1. Basic Flow
+  2. Menggunakan Function Node
   3. Menggunakan Switch Node
   4. Menggunakan JSON Parsing
   5. Pertanyaan & Tugas
