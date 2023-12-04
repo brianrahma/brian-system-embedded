@@ -6,7 +6,7 @@
 
 ## 2. Alat dan Bahan
 
-1. Laptop yang terpasang Node-Red
+Laptop yang terpasang Node-Red
    
 ## 3. Hasil dan Pembahasan
 
