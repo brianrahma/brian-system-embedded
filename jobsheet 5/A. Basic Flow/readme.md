@@ -14,7 +14,7 @@ Laptop yang terpasang Node-Red
 
 <img src="https://github.com/brianrahma/brian-system-embedded/blob/master/jobsheet%205/A.%20Basic%20Flow/basic%20flow.png" width="600">
 
-<p align="justify">Pada percobaan ini output yang dihasilkan yaitu berupa data string “Hello World”. Pertama adalah inject node yang membuat pesan string yang telah ditentulam yakni "Hello World". Node tersebut dikoneksikan dengan debug node yang mana digunakan untuk mengirim data ke sebuah catatan. Terakhir, deploy program dan dapat dilihat keluaran hasil debugnya.
+<p align="justify">Pada percobaan ini output yang dihasilkan yaitu berupa data string “Hello World”. Pertama adalah inject node yang membuat pesan string yang telah ditentukan yakni "Hello World". Node tersebut dikoneksikan dengan debug node yang mana digunakan untuk mengirim data ke sebuah catatan. Terakhir, deploy program dan dapat dilihat keluaran hasil debugnya.
 
 
 <br></br>
