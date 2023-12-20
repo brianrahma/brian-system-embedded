@@ -12,8 +12,7 @@ HTTP. dan mengimplementasikan protokol HTTP pada sistem IoT untuk monitoring dan
 Terdapat 5 percobaan dalam jobsheet ini yaitu :
 1. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%207/A.%20Instalasi%20SQL%20Server%20(MySQL)">**Instalasi SQL Server (MySQL)**
 2. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%207/B.%20Basic%20Flow%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP">**Basic Flow Transmisi Data Menggunakan Protokol HTTP**
-3. **Mengirim Data JSON ke Server dan Menyimpannya ke Database**
-4. **Pertanyaan dan Tugas**
+3. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%207/C.%20Mengirim%20Data%20JSON%20ke%20Server%20dan%20Menyimpannya%20ke%20Database">**Mengirim Data JSON ke Server dan Menyimpannya ke Database**
 
 ## Alat dan Bahan
 
