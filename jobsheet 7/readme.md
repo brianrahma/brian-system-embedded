@@ -10,8 +10,8 @@ melayani permintaan data dari user dan untuk manajemen website. Sementara itu, M
 HTTP. dan mengimplementasikan protokol HTTP pada sistem IoT untuk monitoring dan kendali. </p>
 
 Terdapat 5 percobaan dalam jobsheet ini yaitu :
-1. **Instalasi SQL Server (MySQL)**
-2. **Basic Flow Transmisi Data Menggunakan Protokol HTTP**
+1. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%207/A.%20Instalasi%20SQL%20Server%20(MySQL)">**Instalasi SQL Server (MySQL)**
+2. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%207/B.%20Basic%20Flow%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP">**Basic Flow Transmisi Data Menggunakan Protokol HTTP**
 3. **Mengirim Data JSON ke Server dan Menyimpannya ke Database**
 4. **Pertanyaan dan Tugas**
 
