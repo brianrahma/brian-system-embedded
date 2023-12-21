@@ -9,4 +9,5 @@
    
 ## 3. Hasil Percobaan
 
-<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/0edfe083-dec4-4e6c-bf44-1fce75116fa8" width="800">
+<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/0edfe083-dec4-4e6c-bf44-1fce75116fa8" width="800"> <br>
+Note : Belum Berhasil
