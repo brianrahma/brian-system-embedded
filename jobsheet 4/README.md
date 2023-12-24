@@ -21,9 +21,8 @@ Alat dan bahan yang digunakan dalam jobsheet ini, antara lain:
   1. ESP32 dan Server Node-Red
   2. Breadboard
   3. Kabel jumper
-  4. Sensor DHT 11
-  5. LED (5) 
-  7. Resistor 330, 1K, 10K Ohm (3)
-
+  4. LED
+  5. Resistor 330
+     
 > [!NOTE]  
 > *Buka folder subjob percobaan untuk melihat laporan percobaan*
