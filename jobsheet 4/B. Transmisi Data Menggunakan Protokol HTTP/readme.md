@@ -17,7 +17,7 @@
 ## 4. Flow Program
 <img src="https://github.com/brianrahma/system-embedded/blob/master/jobsheet%204/B.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/flow%20program%20.png" width="800">
 
-## 4. Hasil Percobaan Transmisi Data Dummy Menuju Node-Red Menggunakan Protokol HTTP Metode GET
+## 5. Hasil Percobaan Transmisi Data Dummy Menuju Node-Red Menggunakan Protokol HTTP Metode GET
 
 1. Flow chart program ESP32
    
@@ -39,7 +39,7 @@
    
    <img src="https://github.com/brianrahma/system-embedded/blob/master/jobsheet%204/B.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/tabel%20smartwater-metode%20get.png" width="500">
 
-## 5. Hasil Percobaan Transmisi Data Dummy Menuju Node-Red Menggunakan Protokol HTTP Metode POST
+## 6. Hasil Percobaan Transmisi Data Dummy Menuju Node-Red Menggunakan Protokol HTTP Metode POST
 1. Flow chart program ESP32
    
    <img src="https://github.com/brianrahma/system-embedded/assets/82065700/2695c115-65ec-401f-a5e3-c4c076658693" width="400">
