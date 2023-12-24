@@ -6,7 +6,7 @@
 
 ## 2. Source Code
 
-<img src="https://github.com/Aisyahnurul/AisyahN-system-embedded/assets/147674662/ea8c13bc-ceec-4e23-b6bd-782e1bcefb0c" width="800">
+<img src="https://github.com/Aisyahnurul/AisyahN-system-embedded/assets/147674662/ea8c13bc-ceec-4e23-b6bd-782e1bcefb0c" width="700">
 
 ## 3. Flowchart
 ![jobsheet 4 A flowchart](https://github.com/Aisyahnurul/AisyahN-system-embedded/assets/147674662/26b1622e-6ddd-42bb-a2b7-6e63fca710a7)
