@@ -9,7 +9,7 @@ melayani permintaan data dari user dan untuk manajemen website. Sementara itu, M
 <p align="justify">Pada jobsheet ini bertujuan untuk memahami cara kerja protokol HTTP dan MQTT untuk transmisi data (akuisisi data dan kendali) pada Platform IoT Node-Red</p>
 
 Terdapat 5 percobaan dalam jobsheet ini yaitu :
-1. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%204/A._Setting_SSID_dan_Password_Wi-Fi_ESP32_melalui_Web_Server">Setting SSID dan Password Wi-Fi ESP32 melalui Web Server</a>
+1. <a href="https://github.com/brianrahma/system-embedded/tree/master/jobsheet%204/A.%20Setting%20SSID%20dan%20Password%20Wi-Fi%20ESP32%20melalui%20Web%20Server">Setting SSID dan Password Wi-Fi ESP32 melalui Web Server</a>
 2. **Transmisi Data Menggunakan Protokol HTTP**
 3. **Transmisi Data Menggunakan Protokol MQTT**
 4. **Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT**
