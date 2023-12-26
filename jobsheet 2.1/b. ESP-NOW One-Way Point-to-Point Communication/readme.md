@@ -214,9 +214,6 @@ typedef struct struct_message {
  <img src="https://github.com/brianrahma/system-embedded/assets/82065700/ed8bb6c4-a8fc-4ca2-b108-6fa27b39e9a9" width="600"><br>
 
  **TABEL PERCOBAAN PENGIRIMAN POINT-TO-POINT DALAM 3 KONDISI**
- <p align="justify">Melalui percobaan ini dapat diketahui bahwa semakin jauh jangkauan ESP32 receiver maka delay untuk menerima data semakin besar.
-   <br>
    
- <img src="https://github.com/brianrahma/system-embedded/assets/82065700/ab72bf2b-0a6c-4cae-bd10-c6600ad77533" width="600">
-   
-   Berdasarkan tabel diatas dapat dilihat bahwa pengiriman paket berjalan dengan baik dalam segala kondisi. Persentase packet loss adalah 0% dengan keberhasilan pengiriman 100%.
+ <img src="https://github.com/brianrahma/system-embedded/assets/82065700/ab72bf2b-0a6c-4cae-bd10-c6600ad77533" width="600"><br>
+ <p align="justify">Melalui percobaan ini dapat diketahui bahwa semakin jauh jangkauan ESP32 receiver maka delay untuk menerima data semakin besar. Berdasarkan tabel diatas dapat dilihat bahwa pengiriman paket berjalan dengan baik dalam segala kondisi. Persentase packet loss adalah 0% dengan keberhasilan pengiriman 100%.
