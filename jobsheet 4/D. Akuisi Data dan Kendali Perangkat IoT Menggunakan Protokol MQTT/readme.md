@@ -54,6 +54,6 @@
    
    <img src="https://github.com/brianrahma/system-embedded/blob/master/jobsheet%204/D.%20Akuisi%20Data%20dan%20Kendali%20Perangkat%20IoT%20Menggunakan%20Protokol%20MQTT/serialmonitor2.png" width="600">
    
-5. Widget On/Off Adafuit
+5. Widget On/Off Adafruit
    
    <img src="https://github.com/brianrahma/system-embedded/blob/master/jobsheet%204/D.%20Akuisi%20Data%20dan%20Kendali%20Perangkat%20IoT%20Menggunakan%20Protokol%20MQTT/widget-adafruit.png" width="400">
