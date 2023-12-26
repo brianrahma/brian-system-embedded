@@ -198,8 +198,8 @@ typedef struct struct_message {
 ```
 
 ### C. TUGAS
-1. Aturlah jarak awal komunikasi antara sender dan receiver yaitu 1 meter. Kemudian ubah jarak komunikasi dengan penambahan 1 meter. Data yang dikirim pada tiap iterasi pengujian adalah 10 data.
-2. Aturlah tinggi antena atau peletakan ESP32 pada ground level (menempel tanah), 30 cm di atas tanah, dan 1 meter di atas tanah.
+<p align="justify">Pada percobaan ini, pengiriman Point-to-Point dilakukan dalam beberapa kondisi. Pertama, ada 3 kondisi jarak transmisi yaitu 1 meter, 2 meter, dan 3 meter. Kemudian, pada masing-masing jarak diberikan 3 kondisi ketinggian yaitu ground, 30cm, dan 1 meter diatas permukaan tanah. Hasil pemantauan jumlah data yang berhasil terkirim dan diterima adalah sebagai berikut
+   
 ### D. HASIL PERCOBAAN
  **SENDER**
  
@@ -212,3 +212,9 @@ typedef struct struct_message {
  **DATA DUMMY DENGAN UKURAN YANG TERBACA OLEH RECEIVER ± 250 BYTE**
 
  <img src="https://github.com/brianrahma/system-embedded/assets/82065700/ed8bb6c4-a8fc-4ca2-b108-6fa27b39e9a9" width="600">
+
+ **TABEL PERCOBAAN PENGIRIMAN POINT-TO-POINT DALAM 3 KONDISI**
+ <p align="justify">Melalui percobaan ini dapat diketahui bahwa semakin jauh jangkauan ESP32 receiver maka delay untuk menerima data semakin besar.<br>
+ <img src="https://github.com/brianrahma/system-embedded/assets/82065700/ab72bf2b-0a6c-4cae-bd10-c6600ad77533" width="600">
+   
+   Berdasarkan tabel diatas dapat dilihat bahwa pengiriman paket berjalan dengan baik dalam segala kondisi. Persentase packet loss adalah 0% dengan keberhasilan pengiriman 100%.
