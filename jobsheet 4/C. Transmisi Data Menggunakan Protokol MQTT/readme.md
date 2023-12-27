@@ -5,10 +5,8 @@
    
 ## 2. Alat dan Bahan
 1. Node-RED
-2. LED
-3. Kabel jumper
-4. ESP32
-5. XAMPP
+2. ESP32
+3. XAMPP
 
 ## 3. Source Code
 
