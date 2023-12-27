@@ -7,8 +7,9 @@
 1. Node-RED
 2. Laman Adafruit
 3. ESP32
-4. LED
-5. XAMPP
+4. Kabel jumper
+5. LED
+6. XAMPP
 
 ## 3. Source Code
 
