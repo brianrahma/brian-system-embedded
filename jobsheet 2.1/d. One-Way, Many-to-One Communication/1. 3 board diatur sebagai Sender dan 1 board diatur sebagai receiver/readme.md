@@ -1,4 +1,4 @@
-# A. Memperoleh MAC Address ESP32 Receiver
+# D. One-Way, Many-to-One Communication
 
 ## 1. Rangkaian
 
@@ -6,13 +6,16 @@
 
 ## 2. Source Code
 
-Program dapat dilihat <a href="https://github.com/brianrahma/system-embedded/blob/master/jobsheet%202.1/a.%20Memperoleh%20MAC%20Address%20ESP32%20Receiver/1.%20Memperoleh%20MAC%20Address%20ESP32%20Receiver/mac_address.ino">disini
+1. Program ESP32 sebagai sender dapat dilihat <a href="https://github.com/brianrahma/system-embedded/blob/master/jobsheet%202.1/d.%20One-Way%2C%20Many-to-One%20Communication/1.%203%20board%20diatur%20sebagai%20Sender%20dan%201%20board%20diatur%20sebagai%20receiver/sender.ino">disini
+2. Program ESP32 sebagai receiver dapat dilihat <a href="https://github.com/brianrahma/system-embedded/blob/master/jobsheet%202.1/d.%20One-Way%2C%20Many-to-One%20Communication/1.%203%20board%20diatur%20sebagai%20Sender%20dan%201%20board%20diatur%20sebagai%20receiver/receiver.ino">disini
 
 ## 3. Hasil dan Pembahasan
 
  **Hasil percobaan :**
-
- <img src="https://github.com/brianrahma/system-embedded/assets/82065700/fb43dc71-a008-4110-9d64-ff6c98b3cbc4" width="700">
-
  
-<p align="justify">Dalam percobaan ini output yang didapat adalah mendapatkan MAC Address dari ESP32 yang dikirim melalui serial monitor. MAC Address yang didapat yaitu C8:F0:9E:F4:32:7C
+ ![JOB 4 D-1](https://github.com/brianrahma/system-embedded/assets/82065700/fc08dd91-98f1-4ab2-ba22-5e308386dbae)
+
+ <img src="https://github.com/brianrahma/system-embedded/assets/82065700/117f129c-4f66-4567-b4a2-86dd638d2091" width="700"><br>
+ <p align="justify">Dalam percobaan ini merupakan Many-to-One Communication, kata many menandakan banyaknya pengirim dan one berarti penerima tunggal. Dalam hal ini komunikasi berupa receiver tunggal yang menerima data dari 3 sender ESP32. Dari gambar diatas dapat dilihat bahwa receiver mendapatkan 3 buah data dari 3 sender yang ditandai dengan MAC Address sender yang berbeda-beda.
+
+
